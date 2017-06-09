@@ -1,6 +1,6 @@
 {-
 Pascal's Triangle (https://www.hackerrank.com/challenges/pascals-triangle/problem)
-FP/Introduction, Easy, 10 pts
+FP/Recursion, Easy, 10 pts
 
 For a given integer K, print the first K rows of Pascal's Triangle. Print each
 row with each value separated by a single space. The value at the n-th row and
