@@ -7,8 +7,8 @@ positions.
 -}
 
 f :: [Int] -> [Int]
-f lst = [x | (x,i) <- zip lst [1..], even i]
-
+f (_:x:xs) = x : f xs
+f _ = []
 main = do
    inputdata <- getContents
    mapM_ (putStrLn. show). f. map read. lines $ inputdata
